@@ -15,5 +15,10 @@ ls -R                                          (to see the changes or folder  )
 git log --oneline                                (to see the log message on the console)
 git log  --oneline --graph --all                 (to see all of them in the graphical format)
 
+
+
+
+adding this for nested branch parent
+
 we can branch and commit and commit and branch vice versa as branch will point to the lates commit
 
