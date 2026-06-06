@@ -1,0 +1,18 @@
+Git init to initialize repository as it will tell git this file you can consider for pushing
+
+
+to  make a repo
+create a file then  stage it
+  git add .
+git commit -m "Commit message"
+git branch -M main                             (you are in master to rename the  master to main  using m for renaming)
+git checkout -b feature/feature_name           (to create a new branch)
+git remote add origin https://github.com/Harish-Devs/HLES.git    (add the remote repo link)
+gite remote -v                                  (to verify the remote repository linked/mapped)
+git push -u origin/main                        (here main is the branch name if u different branch we can use that branch name instead of main  but origin to 						be common since that will point the remote workspace)(u  will permanently map the repo if not we need to 						specify the repo each time  by doing this local-> main will point to remote->main)
+
+ls -R                                          (to see the changes or folder  )
+git log --online                                (to see the log message on the console)
+
+we can branch and commit and commit and branch vice versa as branch will point to the lates commit
+
