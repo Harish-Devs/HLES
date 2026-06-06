@@ -21,5 +21,6 @@ git log  --oneline --graph --all                 (to see all of them in the grap
 adding this for nested branch parent
 adding this for child branch parent
 
+adding thi in the merged parent as a commit to see what happens
 we can branch and commit and commit and branch vice versa as branch will point to the lates commit
 
