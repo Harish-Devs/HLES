@@ -15,6 +15,25 @@ ls -R                                          (to see the changes or folder  )
 git log --oneline                                (to see the log message on the console)
 git log  --oneline --graph --all                 (to see all of them in the graphical format)
 
+git rebase main                                  GO TO FEATURE AND U want latest chanegs from main then use rebase for pushing u r changes on top of main                    
+                                                  it can be applicable to feature to feature branch as well
+git reset --hard HEAD~1                         undo last commit done i local this will create a new commit for inversing a commmit
+git rebase -i                                    udno last rebase activity
+git revert --no-commit <hash>                     undo last commit form rrmoete withou adin a commit
+
+git cherry-pick hass ID                           use dto take  aparticular comit and will create a new commit locally
+git cherry-pick  --abort
+git cherry-pick  -- continue
+
+git fetch                                          just take the latest origin main but keep ur local main as it 
+git pull                                             do fetch and merge
+git merge                                            after fetch need to do so that it will create a local commit fo origin main and ur main together
+
+git stash                                            acts as a temperory storage
+git stash pop                                          take the data back and remov
+git stash list                                        see the lsit fo tash
+git stash apply                                     wihtou removing the stash
+git stash drop stash@{0}                            to delete it
 
 
 
