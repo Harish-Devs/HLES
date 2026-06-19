@@ -1,0 +1,11 @@
+
+
+
+Kernel
+Qnx
+Osex
+Posex
+
+unix
+
+CAN physical learning with component
